@@ -1,0 +1,11 @@
+{
+    "version": 4,
+    "vendor": {
+        "conan": {}
+    },
+    "include": [
+        "C:\\Users\\hanhu\\robotics\\robotics-trial-project\\libhal-starter\\build\\micromod\\mod-stm32f1-v4\\Release\\generators\\CMakePresets.json",
+        "C:\\Users\\hanhu\\robotics\\robotics-trial-project\\libhal-starter\\build\\lpc4078\\MinSizeRel\\generators\\CMakePresets.json",
+        "C:\\Users\\hanhu\\robotics\\robotics-trial-project\\libhal-starter\\build\\micromod\\mod-lpc40-v5\\Release\\generators\\CMakePresets.json"
+    ]
+}

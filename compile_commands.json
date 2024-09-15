@@ -1,0 +1,26 @@
+[
+{
+  "directory": "C:/Users/hanhu/robotics/robotics-trial-project/libhal-starter/build/micromod/mod-stm32f1-v4/Release",
+  "command": "C:\\Users\\hanhu\\.conan2\\p\\b\\arm-g76f9998298e7f\\p\\bin\\bin\\arm-none-eabi-g++.exe  -isystem C:\\Users\\hanhu\\.conan2\\p\\libhaae3cbd4cc2a28\\p\\include -isystem C:\\Users\\hanhu\\.conan2\\p\\libhaf3acc75751b6f\\p\\include -isystem C:\\Users\\hanhu\\.conan2\\p\\ring-705d0076cd6fe\\p\\include -isystem C:\\Users\\hanhu\\.conan2\\p\\libha2485575bde2df\\p\\include -isystem C:\\Users\\hanhu\\.conan2\\p\\libha7777bbdc044dd\\p\\include -isystem C:\\Users\\hanhu\\.conan2\\p\\libhadb45f00d15699\\p\\include -isystem C:\\Users\\hanhu\\.conan2\\p\\tl-fu31454aa876889\\p\\include -isystem C:\\Users\\hanhu\\.conan2\\p\\scopeb37e54e05c765\\p\\include -isystem C:\\Users\\hanhu\\.conan2\\p\\libhadd10b6ec40d74\\p\\include -mcpu=cortex-m3 -mfloat-abi=soft -O3 -DNDEBUG -std=c++23 -g -Werror -Wall -Wextra -Wshadow -fexceptions -fno-rtti -o CMakeFiles\\startup_code.dir\\main.cpp.obj -c C:\\Users\\hanhu\\robotics\\robotics-trial-project\\libhal-starter\\main.cpp",
+  "file": "C:/Users/hanhu/robotics/robotics-trial-project/libhal-starter/main.cpp",
+  "output": "CMakeFiles/startup_code.dir/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/hanhu/robotics/robotics-trial-project/libhal-starter/build/micromod/mod-stm32f1-v4/Release",
+  "command": "C:\\Users\\hanhu\\.conan2\\p\\b\\arm-g76f9998298e7f\\p\\bin\\bin\\arm-none-eabi-g++.exe  -isystem C:\\Users\\hanhu\\.conan2\\p\\libhaae3cbd4cc2a28\\p\\include -isystem C:\\Users\\hanhu\\.conan2\\p\\libhaf3acc75751b6f\\p\\include -isystem C:\\Users\\hanhu\\.conan2\\p\\ring-705d0076cd6fe\\p\\include -isystem C:\\Users\\hanhu\\.conan2\\p\\libha2485575bde2df\\p\\include -isystem C:\\Users\\hanhu\\.conan2\\p\\libha7777bbdc044dd\\p\\include -isystem C:\\Users\\hanhu\\.conan2\\p\\libhadb45f00d15699\\p\\include -isystem C:\\Users\\hanhu\\.conan2\\p\\tl-fu31454aa876889\\p\\include -isystem C:\\Users\\hanhu\\.conan2\\p\\scopeb37e54e05c765\\p\\include -isystem C:\\Users\\hanhu\\.conan2\\p\\libhadd10b6ec40d74\\p\\include -mcpu=cortex-m3 -mfloat-abi=soft -O3 -DNDEBUG -std=c++23 -g -Werror -Wall -Wextra -Wshadow -fexceptions -fno-rtti -o CMakeFiles\\startup_code.dir\\src\\mpu6050.cpp.obj -c C:\\Users\\hanhu\\robotics\\robotics-trial-project\\libhal-starter\\src\\mpu6050.cpp",
+  "file": "C:/Users/hanhu/robotics/robotics-trial-project/libhal-starter/src/mpu6050.cpp",
+  "output": "CMakeFiles/startup_code.dir/src/mpu6050.cpp.obj"
+},
+{
+  "directory": "C:/Users/hanhu/robotics/robotics-trial-project/libhal-starter/build/micromod/mod-stm32f1-v4/Release",
+  "command": "C:\\Users\\hanhu\\.conan2\\p\\b\\arm-g76f9998298e7f\\p\\bin\\bin\\arm-none-eabi-g++.exe  -isystem C:\\Users\\hanhu\\.conan2\\p\\libhaae3cbd4cc2a28\\p\\include -isystem C:\\Users\\hanhu\\.conan2\\p\\libhaf3acc75751b6f\\p\\include -isystem C:\\Users\\hanhu\\.conan2\\p\\ring-705d0076cd6fe\\p\\include -isystem C:\\Users\\hanhu\\.conan2\\p\\libha2485575bde2df\\p\\include -isystem C:\\Users\\hanhu\\.conan2\\p\\libha7777bbdc044dd\\p\\include -isystem C:\\Users\\hanhu\\.conan2\\p\\libhadb45f00d15699\\p\\include -isystem C:\\Users\\hanhu\\.conan2\\p\\tl-fu31454aa876889\\p\\include -isystem C:\\Users\\hanhu\\.conan2\\p\\scopeb37e54e05c765\\p\\include -isystem C:\\Users\\hanhu\\.conan2\\p\\libhadd10b6ec40d74\\p\\include -mcpu=cortex-m3 -mfloat-abi=soft -O3 -DNDEBUG -std=c++23 -g -Werror -Wall -Wextra -Wshadow -fexceptions -fno-rtti -o CMakeFiles\\startup_code.dir\\platforms\\micromod.cpp.obj -c C:\\Users\\hanhu\\robotics\\robotics-trial-project\\libhal-starter\\platforms\\micromod.cpp",
+  "file": "C:/Users/hanhu/robotics/robotics-trial-project/libhal-starter/platforms/micromod.cpp",
+  "output": "CMakeFiles/startup_code.dir/platforms/micromod.cpp.obj"
+},
+{
+  "directory": "C:/Users/hanhu/robotics/robotics-trial-project/libhal-starter/build/micromod/mod-stm32f1-v4/Release",
+  "command": "C:\\Users\\hanhu\\.conan2\\p\\b\\arm-g76f9998298e7f\\p\\bin\\bin\\arm-none-eabi-g++.exe  -isystem C:\\Users\\hanhu\\.conan2\\p\\libhaae3cbd4cc2a28\\p\\include -isystem C:\\Users\\hanhu\\.conan2\\p\\libhaf3acc75751b6f\\p\\include -isystem C:\\Users\\hanhu\\.conan2\\p\\ring-705d0076cd6fe\\p\\include -isystem C:\\Users\\hanhu\\.conan2\\p\\libha2485575bde2df\\p\\include -isystem C:\\Users\\hanhu\\.conan2\\p\\libha7777bbdc044dd\\p\\include -isystem C:\\Users\\hanhu\\.conan2\\p\\libhadb45f00d15699\\p\\include -isystem C:\\Users\\hanhu\\.conan2\\p\\tl-fu31454aa876889\\p\\include -isystem C:\\Users\\hanhu\\.conan2\\p\\scopeb37e54e05c765\\p\\include -isystem C:\\Users\\hanhu\\.conan2\\p\\libhadd10b6ec40d74\\p\\include -mcpu=cortex-m3 -mfloat-abi=soft -O3 -DNDEBUG -std=c++23 -g -Werror -Wall -Wextra -Wshadow -fexceptions -fno-rtti -o CMakeFiles\\mpu6050_demo.elf.dir\\applications\\mpu6050_demo.cpp.obj -c C:\\Users\\hanhu\\robotics\\robotics-trial-project\\libhal-starter\\applications\\mpu6050_demo.cpp",
+  "file": "C:/Users/hanhu/robotics/robotics-trial-project/libhal-starter/applications/mpu6050_demo.cpp",
+  "output": "CMakeFiles/mpu6050_demo.elf.dir/applications/mpu6050_demo.cpp.obj"
+}
+]
