@@ -1,5 +1,7 @@
 #include "../include/mpu6050.hpp"
 #include <array>
+#include <libhal/timeout.hpp>
+#include <libhal-util/i2c.hpp>
 using namespace std::chrono_literals;
 
 mpu6050::mpu6050(hal::i2c& p_i2c, hal::steady_clock& p_clock, hal::serial& p_terminal) : m_i2c(p_i2c), m_clock(p_clock), m_terminal(p_terminal){
@@ -9,11 +11,26 @@ mpu6050::mpu6050(hal::i2c& p_i2c, hal::steady_clock& p_clock, hal::serial& p_ter
 
 void mpu6050::setup(){
    // hal::print(m_terminal, "Intial Offset: ");
-    hal::delay(m_clock, 10ms);
+   // hal::delay(m_clock, 10ms);
     //serial:: wait for user (look at this later)
     //serial:: set timer between each input
     
     //talk with mpu6050 to use function no_sleep
+
+   
+//      static constexpr hal::byte expected_device_id = 0x68;
+//   // Read out the identity register
+//   auto device_id =
+//     hal::write_then_read<1>(m_i2c,
+//                             addresses::MPU_addr,
+//                             std::array{ addresses::WHO_AM_I },
+//                             hal::never_timeout())[0];
+
+//   if (device_id != expected_device_id) {
+//     hal::safe_throw(hal::no_such_device(m_address, this));
+//   }
+
+    
     mpu6050::no_sleep();
     hal::print(m_terminal, "no sleep complete");
     mpu6050::accel_config();
@@ -24,6 +41,13 @@ void mpu6050::setup(){
 
 }
  void mpu6050::read_xy(){
+
+    // WHO AM I returns 0x68
+    // hal::write(m_i2c, addresses::MPU_addr, std::array<hal::byte, 1>{addresses::WHO_AM_I});
+    // std::array<hal::byte, 1> a;
+    // hal::read(m_i2c, addresses::MPU_addr, a);
+
+    // return;
     std::array<hal::byte, 4> data;
     
     hal::write(m_i2c, addresses::MPU_addr, std::array<hal::byte, 1>{addresses::ACCEL_XOUT_H});
@@ -50,7 +74,10 @@ void mpu6050::setup(){
 
 
 void mpu6050::no_sleep(){
-    //mpu6050::start();
+    // mpu6050::start();
+    // hal::write(m_i2c, addresses::MPU_addr, std::array<hal::byte, 1> {addresses::start_address});
+
+    hal::print(m_terminal,"sent start\n");
     hal::write(m_i2c, addresses::MPU_addr, std::array<hal::byte, 2> {addresses::start_address, modes::no_sleep_var});
     //makes sure the mput6050 doesnt randomly turn off sleep stuff
     //write to 0x6B

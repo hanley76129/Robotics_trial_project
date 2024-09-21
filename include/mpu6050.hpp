@@ -11,7 +11,8 @@ class mpu6050{
       MPU_addr = 0x68,
       start_address= 0x6B,
       ACCEL_CONFIG=0x1C,
-      ACCEL_XOUT_H=0x3B
+      ACCEL_XOUT_H=0x3B,
+      WHO_AM_I = 0x75,
     };
 
     enum modes  : hal::byte{
